@@ -19,7 +19,7 @@ const options = {
                 description: 'Development server'
             },
             {
-                url: 'http://localhost:3000',
+                url: 'https://thcoder-api.onrender.com',
                 description: 'Development server (alternate)'
             }
         ],
