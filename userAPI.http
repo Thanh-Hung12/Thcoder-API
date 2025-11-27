@@ -1,0 +1,36 @@
+# //tạo mới user
+# POST http://localhost:3001/api/users
+# Content-Type: application/json
+
+# {
+#   "name": "Thanh Hung",
+#   "email": "thanhhung@gmail.com",
+#   "age": 25
+# }
+//get on user
+#  GET http://localhost:3001/api/users/69283f62e84b99126dd9eb11
+//lấy danh sách user
+#   GET http://localhost:3001/api/users
+//cập nhật user
+# PUT http://localhost:3001/api/users/64a7f0c2e1b2c3d4e5f67890
+# Content-Type: application/json
+
+# {
+#   "name": "Updated Name",
+#   "email": "updated@example.com",
+#   "age": 35
+# }
+//xóa user
+#  DELETE http://localhost:3001/api/users/69283f62e84b99126dd9eb11
+
+// update user 
+PUT http://localhost:3001/api/users/6928400de84b99126dd9eb16
+Content-Type: application/json
+
+{
+  "name": "Updated Name",
+  "email": "updated@example.com",
+  "age": 35
+}
+ 
+# -----------------------------------END-----------------------------------
